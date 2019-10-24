@@ -1,5 +1,13 @@
 host: searchlight.dev
 
 paths:
+  /alertmanager:
+    repo: https://github.com/searchlight/alertmanager
+
+paths:
+  /prometheus-metrics-exporter:
+    repo: https://github.com/searchlight/prometheus-metrics-exporter
+
+paths:
   /ruler:
     repo: https://github.com/searchlight/ruler
