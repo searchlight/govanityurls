@@ -1,4 +1,4 @@
-host: searchlight.dev
+host: go.searchlight.dev
 
 paths:
   /alertmanager:
