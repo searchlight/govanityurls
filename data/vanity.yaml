@@ -1,7 +1,17 @@
-# Example vanity.yaml
-
-host: gomodules.xyz
+host: go.searchlight.dev
 
 paths:
-  /sync:
-    repo: https://github.com/gomodules/sync
+  /alertmanager:
+    repo: https://github.com/searchlight/alertmanager
+
+  /grafana-operator:
+    repo: https://github.com/searchlight/grafana-operator
+
+  /installer:
+    repo: https://github.com/searchlight/installer
+
+  /prometheus-metrics-exporter:
+    repo: https://github.com/searchlight/prometheus-metrics-exporter
+
+  /ruler:
+    repo: https://github.com/searchlight/ruler
